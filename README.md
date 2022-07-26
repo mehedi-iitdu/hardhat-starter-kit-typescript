@@ -1,8 +1,6 @@
 # hardhat-starter-kit-typescript
 
-1. Clone and install dependencies
-
-After installing all the requirements, run the following:
+Clone and install dependencies
 
 ```bash
 git clone https://github.com/mehedi-iitdu/hardhat-starter-kit-typescript
