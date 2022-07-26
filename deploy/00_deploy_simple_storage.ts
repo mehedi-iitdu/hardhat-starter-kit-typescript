@@ -3,7 +3,7 @@ import { HardhatRuntimeEnvironment } from 'hardhat/types'
 import { developmentChains, networkConfig } from '../helper-hardhat-config'
 import verify from '../utils/verify'
 
-const deployFundMe: DeployFunction = async function (
+const deploySimpleStorage: DeployFunction = async function (
     hre: HardhatRuntimeEnvironment
 ) {
     const { getNamedAccounts, deployments, network } = hre
@@ -27,5 +27,5 @@ const deployFundMe: DeployFunction = async function (
         await verify(simpleStorage.address, [])
     }
 }
-export default deployFundMe
-deployFundMe.tags = ['all', 'simpleStorage']
+export default deploySimpleStorage
+deploySimpleStorage.tags = ['all', 'simpleStorage']
