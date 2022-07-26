@@ -1,7 +1,7 @@
 import { expect } from 'chai'
 import { ethers, network } from 'hardhat'
-import { developmentChains } from '../helper-hardhat-config'
-import { SimpleStorage, SimpleStorage__factory } from '../typechain-types'
+import { developmentChains } from '../../helper-hardhat-config'
+import { SimpleStorage, SimpleStorage__factory } from '../../typechain-types'
 
 describe('SimpleStorage', function () {
     let simpleStorage: SimpleStorage
