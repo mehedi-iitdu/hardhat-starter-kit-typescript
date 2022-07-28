@@ -11,6 +11,7 @@
         "@chainlink/contracts": "^0.4.1",
         "@nomicfoundation/hardhat-toolbox": "^1.0.2",
         "@nomiclabs/hardhat-solhint": "^2.0.1",
+        "@openzeppelin/contracts": "^4.7.2",
         "dotenv": "^14.2.0",
         "hardhat": "^2.10.1",
         "hardhat-deploy": "^0.9.29"
